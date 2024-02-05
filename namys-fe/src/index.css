@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes ejection {
+    0% {
+      transform: translateX(-100);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .ejection-animation {
+    animation: ejection 1s ease-in;
+  }
